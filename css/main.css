@@ -1,0 +1,53 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.cover {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.cover__image {
+  margin: 5vh 0;
+  height: 90vh;
+}
+
+.profile {
+  color: #eee;
+  font-weight: lighter;
+}
+.profile__main {
+  margin: 30vh 0 60px;
+}
+.profile__name, .profile__group {
+  display: inline-block;
+}
+.profile__name {
+  font-size: 40px;
+  margin-right: 12px;
+}
+.profile__group {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.profile__other {
+  font-size: 20px;
+}
+.profile__birth, .profile__place {
+  margin: 10px 0;
+}
